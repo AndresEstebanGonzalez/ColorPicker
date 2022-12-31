@@ -1,6 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap");
 html,
 body {
   margin: 0;
   padding: 0;
   font-size: 10px;
+  font-family: "Dosis";
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #faf6d7;
+}
+.main .top-sector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.main .middle-sector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+}
+.main .middle-sector .color-circle {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+  background-color: #8cb596;
+}
+.main .bottom-sector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
 }/*# sourceMappingURL=style.css.map */
