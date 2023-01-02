@@ -25,11 +25,14 @@ body {
 
     width: 100%;
     height: 10%;
+
     .app-title {
+      font-size: 5rem;
     }
   }
   .middle-sector {
     @include flexCenter;
+    flex-direction: column;
 
     width: 100%;
     height: 70%;
@@ -39,6 +42,10 @@ body {
       height: 35rem;
       border-radius: 50%;
       background-color: $light-green;
+    }
+
+    .value-display {
+      font-size: 3rem;
     }
   }
   .bottom-sector {

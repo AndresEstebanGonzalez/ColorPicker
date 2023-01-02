@@ -1,5 +1,6 @@
 const genBtn = document.getElementById("colorBtn");
 const colorCircle = document.getElementById("colorCircle");
+const valueDisplay = document.getElementById("valueDisplay");
 
 const minNumb = 1;
 const maxNumb = 255;
@@ -18,6 +19,7 @@ function randNumb() {
     generateNumber() + "," + generateNumber() + "," + generateNumber();
   let rgbVariable = "rgb" + "(" + rgbValue + ")";
   colorCircle.style.backgroundColor = rgbVariable;
+  valueDisplay.textContent = rgbVariable;
 }
 
 //Button clicked
